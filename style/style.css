@@ -82,6 +82,8 @@ nav {
     text-align: left;
 }
 nav > a {
+    display: block;
+    text-align: center;
     text-decoration: none;
     color: var(--cor1);
     border-radius: 5px;
