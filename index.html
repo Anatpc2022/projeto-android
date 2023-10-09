@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Site do Android</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -14,8 +15,8 @@
         <h1>CURIOSIDADES DE TECNOLOGIA</h1>
         <P>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</P>
     </header>
-
-    <nav>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <nav id="itens">
         <a href="#">Home</a>
         <a href="#">Notícias</a>
         <a href="#">Curiosidades</a>
@@ -127,6 +128,15 @@
                 Cláudia</a> com ajuda do <a href="https://www.youtube.com/results?search_query=curso+em+video"
                 target="_blank">CursoemVideo</a>.</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            }else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 
 </html>

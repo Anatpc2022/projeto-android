@@ -61,6 +61,19 @@ header > p {
     margin-bottom: 20px;
     margin: auto;
 }
+
+i#burguer {
+    background-color: var(--cor3);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;  
+    cursor: pointer;
+}
+i#burguer:hover {
+    background-color: var(--cor1);
+    color: black;
+}
 nav {
     background-color: var(--cor5);
     padding: 10px;
